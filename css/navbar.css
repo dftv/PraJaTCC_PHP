@@ -1,0 +1,263 @@
+.navbar-top {
+    /*size - position*/
+    position: fixed;
+    width: 100vw;
+
+    /*style*/
+    color: black;
+
+    /*grid*/
+    flex-wrap: nowrap;
+}
+
+.logo{
+    /*size - position*/
+    width: 100%;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.logo .bk{
+    /*size - position*/
+
+    /*style*/
+    fill: transparent;
+
+    /*grid*/
+}
+
+.logo .text{
+    /*size - position*/
+
+    /*style*/
+    fill: var(--main-color);
+
+    /*grid*/
+}
+
+.logo .accent{
+    /*size - position*/
+
+    /*style*/
+    fill: var(--secondary-color);
+
+    /*grid*/
+}
+
+@media (min-width: 1025px) {
+    .navbar-logo {
+        /*size - position*/
+        position: relative;
+        width: 20vh;
+        margin: 5vh;
+    
+        /*style*/
+        cursor: pointer;
+    
+        /*grid*/
+    }
+
+    .container-tools {
+        /*size - position*/
+        position: relative;
+        width: 15vh;
+        height: 5.5vh;
+        margin: 5vh;
+        
+        /*style*/
+        background-color: white;
+        border-radius: 2.5vh;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    
+        /*grid*/
+    }
+
+    .navbar-bottom {
+        /*size - position*/
+    
+        /*style*/
+    
+        /*grid*/
+        display: none;
+    }
+
+    .container-chat {
+        /*size - position*/
+        position: fixed;
+        width: 15vh;
+        height: 6vh;
+        right: 0;
+        bottom: 10vh;
+        z-index: 1;
+    
+        /*style*/
+        background-color: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+        border-radius: 2.5vh 0 0 2.5vh;
+    
+        /*grid*/
+    }
+}
+
+@media (max-width: 1025px) {
+    .navbar-logo {
+        /*size - position*/
+    
+        /*style*/
+    
+        /*grid*/
+        display: none;
+    }
+
+    .container-tools {
+        /*size - position*/
+        
+        /*style*/
+    
+        /*grid*/
+        display: none;
+    }
+
+    .navbar-bottom {
+        /*size - position*/
+        position: fixed;
+        width: 100vw;
+        height: 5.5vh;
+        bottom: 0;
+    
+        /*style*/
+        background-color: white;
+        border-radius: 2.5vh 2.5vh 0 0;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    
+        /*grid*/
+        justify-content: space-around;
+    }
+
+    .container-chat {
+        /*size - position*/
+    
+        /*style*/
+    
+        /*grid*/
+        display: none;
+    }
+}
+
+.container-search{
+    /*size - position*/
+    position: relative;
+    width: 75vh;
+    height: 5.5vh;
+    margin: 5vh;
+    
+    /*style*/
+    background-color: white;
+    border-radius: 2.5vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+
+    /*grid*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-search {
+    /*size - position*/
+    position: relative;
+    width: 75%;
+    height: 100%;
+    margin-left: 2.5vh;
+
+    /*style*/
+    color: #7d7d7d;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+
+    /*grid*/
+}
+
+.btn-search{
+    /*size - position*/
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    right: .5vh;
+    align-self: flex-end;
+
+    /*style*/
+    background-color: var(--secondary-color);
+    outline: none;
+    border: none;
+    border-radius: 2.5vh;
+
+    /*grid*/
+    display: flex;
+    justify-content: center;
+}
+
+.icon-search {
+    /*size - position*/
+    position: relative;
+    width: 2.5vh;
+    height: 2.5vh;
+    align-self: center;
+
+    /*style*/
+    cursor: pointer;
+    text-decoration: none;
+    fill: var(--main-color);
+
+    /*grid*/
+}
+
+.icon-options {
+    /*size - position*/
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    margin-top: .5vh;
+
+    /*style*/
+    cursor: pointer;
+    text-decoration: none;
+    fill: var(--secondary-color);
+
+    /*grid*/
+}
+
+.icon-user {
+    /*size - position*/
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    margin-top: .5vh;
+
+    /*style*/
+    cursor: pointer;
+    text-decoration: none;
+    fill: var(--secondary-color);
+
+    /*grid*/
+}
+
+.icon-chat {
+    /*size - position*/
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    transform: rotateY(180deg);
+
+    /*style*/
+    cursor: pointer;
+    text-decoration: none;
+    fill: var(--secondary-color);
+
+    /*grid*/
+}

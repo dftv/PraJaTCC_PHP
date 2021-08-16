@@ -1,0 +1,276 @@
+.container {
+    /*size - position*/
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.logo{
+    /*size - position*/
+    width: 100%;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.logo .bk{
+    /*size - position*/
+
+    /*style*/
+    fill: transparent;
+
+    /*grid*/
+}
+
+.logo .text{
+    /*size - position*/
+
+    /*style*/
+    fill: var(--main-color);
+
+    /*grid*/
+}
+
+.logo .accent{
+    /*size - position*/
+
+    /*style*/
+    fill: var(--secondary-color);
+
+    /*grid*/
+}
+
+.container-login label, .container-singup label {
+    /*size - position*/
+    width: 100%;
+    margin: 2.5vh;
+
+    /*style*/
+    font-size: 3vh;
+    color: var(--main-color);
+
+    /*grid*/
+}
+
+.container-login:hover label, .container-singup:hover label {
+    /*size - position*/
+
+    /*style*/
+    color: var(--secondary-color);
+
+    /*grid*/
+}
+
+@media (min-width: 1025px) {
+    .container-logo {
+        /*size - position*/
+        position: absolute;
+        width: 20vh;
+        margin: 5vh;
+        align-self: flex-start;
+        z-index: 1;
+
+        /*style*/
+        cursor: pointer;
+        
+        /*grid*/
+    }
+
+    .container-login, .container-singup {
+        /*size - position*/
+        width: 25%;
+        height: 50%;
+        margin: 1vh;
+    
+        /*style*/
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0.1);
+        border: var(--main-color) .25vh solid;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+        overflow: scroll;
+    
+        /*grid*/
+        text-align: center;
+    }
+
+    .container-login:hover, .container-singup:hover {
+        /*size - position*/
+        width: 25%;
+        height: 75%;
+    
+        /*style*/
+        color: var(--secondary-color);
+        background-color: var(--main-color);
+        box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    
+        /*grid*/
+    }
+}
+@media (max-width: 1025px) {
+    .container-logo {
+        /*size - position*/
+    
+        /*style*/
+    
+        /*grid*/
+        display: none;
+    }
+
+    .container-login, .container-singup {
+        /*size - position*/
+        width: 100%;
+        height: 10%;
+    
+        /*style*/
+        color: var(--main-color);
+        border: var(--main-color) .25vh solid;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, .25);
+
+        /*grid*/
+    }
+
+    .container-login:hover, .container-singup:hover {
+        /*size - position*/
+        width: 100%;
+        height: 90%;
+
+        /*style*/
+        color: var(--secondary-color);
+        background-color: var(--main-color);
+        box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+        overflow: scroll;
+    
+        /*grid*/
+    }
+}
+
+.form {
+    /*size - position*/
+
+    /*style*/
+
+    /*grid*/
+    display: none;
+}
+
+.container-login:hover .form, .container-singup:hover .form {
+    /*size - position*/
+    width: 75%;
+
+    /*style*/
+
+    /*grid*/
+    display: flex;
+}
+
+.form label {
+    /*size - position*/
+    width: fit-content !important;
+    align-self: flex-start !important;
+    margin: .5vh !important;
+
+    /*style*/
+    font-size: 2.5vh !important;
+    color: var(--secondary-color) !important;
+
+    /*grid*/
+}
+
+.container-form-input {
+    /*size - position*/
+    width: 75%;
+    height: 5.5vh;
+    
+    /*style*/
+    background-color: white;
+    border-radius: 2.5vh;
+    padding: 0 2.5vh 0 2.5vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+
+    /*grid*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-input {
+    /*size - position*/
+    width: 100%;
+    height: 100%;
+
+    /*style*/
+    color: #7d7d7d;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5vh;
+
+    /*grid*/
+}
+
+.form small {
+    /*size - position*/
+
+    /*style*/
+    font-size: 1.5vh;
+
+    /*grid*/
+    margin: .5vh 0 2.5vh .5vh;
+
+}
+
+.form-btn {
+    /*size - position*/
+    width: 100%;
+    height: 5.5vh;
+
+    /*style*/
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 2.5vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+
+    /*grid*/
+}
+
+.container-bg {
+    /*size - position*/
+    width: 100vw;
+    height: 100vh;
+
+    /*style*/
+    overflow: hidden;
+
+    /*grid*/
+}
+
+.bg-img {
+    /*size - position*/
+    size: cover;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.container-bottom {
+    /*size - position*/
+    position: relative;
+    bottom: 0px;
+
+    /*style*/
+
+    /*grid*/
+}

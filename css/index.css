@@ -1,0 +1,31 @@
+.bg-img {
+    /*size - position*/
+    width: 100%;
+
+    /*style*/
+
+    /*grid*/
+}
+
+@media (min-width: 1025px) {
+    .container-bottom {
+        /*size - position*/
+        bottom: 0;
+    
+        /*style*/
+        padding: 0;
+    
+        /*grid*/
+    }
+}
+@media (max-width: 1025px) {
+    .container-bottom {
+        /*size - position*/
+        height: 15.5vh;
+        bottom: 0;
+    
+        /*style*/
+    
+        /*grid*/
+    }
+}
