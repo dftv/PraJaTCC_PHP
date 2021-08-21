@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="css/dropdown.css">
 </head>
 
-<script type="text/javascript" src="components/script.js"></script>
-
 <body>
     <nav class="navbar-top grid-row">
         <div class="navbar-logo">
@@ -115,6 +113,19 @@
             </svg>
         </a>
     </nav>
+
+    <script type="text/javascript" src="components/script.js"></script>
+
+    <!---
+                      #######  ##       ########
+            #######   #     #  ##       ##    ##  #######
+            #######   #        ##       ##    ##  #######
+    #######           #######  ##       ########           #######
+            #######        ##  ##       ##    ##  #######
+            #######   #    ##  ##       ##    ##  #######
+                      #######  #######  ##    ##
+    -->
+    
 </body>
 
 </html>

@@ -59,9 +59,9 @@
         <div class="container-singup grid-row" id="sla">
             <label>CADASTRAR-SE</label>
             <form class="form grid-column" action="">
-                <label>Nome:</label>
+                <label>Nome completo:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="name_singup" type="text" name="name_singup" placeholder="Nome" autocomplete="off" required>
+                    <input class="form-input" id="name_singup" type="text" name="name_singup" placeholder="Nome completo" autocomplete="off" required>
                 </div>
                 <small>Exemplo: </small>
 
@@ -121,6 +121,16 @@
     
     <script type="text/javascript" src="components/script.js"></script>
     <script src="components/comfirmPassword.js"></script>
+    
+    <!---
+                      #######  ##       ########
+            #######   #     #  ##       ##    ##  #######
+            #######   #        ##       ##    ##  #######
+    #######           #######  ##       ########           #######
+            #######        ##  ##       ##    ##  #######
+            #######   #    ##  ##       ##    ##  #######
+                      #######  #######  ##    ##
+    -->
 
 </body>
 
