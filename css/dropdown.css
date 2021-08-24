@@ -17,7 +17,7 @@
     left: -3.5vh;
 
     /*style*/
-    background-color: #f9f9f9;
+    background-color: var(--main-color);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
     border-radius: 2.5vh;
     padding: 2.5vh;
@@ -38,7 +38,7 @@
     right: -3.5vh;
 
     /*style*/
-    background-color: #f9f9f9;
+    background-color: var(--main-color);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
     border-radius: 2.5vh;
     padding: 2.5vh;
