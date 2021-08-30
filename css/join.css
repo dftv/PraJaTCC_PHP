@@ -258,7 +258,9 @@
 
 .bg-img {
     /*size - position*/
-    size: cover;
+    width: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
 
     /*style*/
 

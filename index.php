@@ -81,7 +81,7 @@
         </a>
     </nav>
 
-    <img class="bg-img" src="https://source.unsplash.com/1920x1080/?mercado,feira,agricultura">
+    <img class="bg-img" src="https://source.unsplash.com/1920x1080/?mercado,streetfair,agricultura">
 
     <div class="container">
         Qualquer coisa que tenha no site!!!
