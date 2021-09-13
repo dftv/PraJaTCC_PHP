@@ -82,6 +82,7 @@
     margin-top: -.5vh;
 
     /*style*/
+    overflow: scroll;
     padding: 2.5vh;
     background-color: var(--secondary-color);
     color: var(--main-color);
@@ -102,22 +103,74 @@
     align-items: center;
 }
 
+.profile-list-adverts a {
+    /*size - position*/
+
+    /*style*/
+    text-decoration: none;
+    text-overflow: ellipsis;
+
+    /*grid*/
+}
+
 .profile-adverts{
     /*size - position*/
-    width: 10vh;
-    height: 10vh;
+    width: 20vh;
+    height: 30vh;
     margin: 2.5vh;
 
     /*style*/
     background-color: var(--main-color);
+    border-radius: 2.5vh;
+    color: var(--main-color); 
 
     /*grid*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-adverts-image {
+    /*size - position*/
+    width: 15vh;
+    height: 15vh;
+
+    /*style*/
+    background-color: var(--main-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    border-radius: 2.5vh;
+    overflow: hidden;
+
+    /*grid*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-adverts-image img {
     /*size - position*/
     width: 110%;
     /*style*/
+
+    /*grid*/
+}
+
+.profile-adverts-header {
+    /*size - position*/
+
+    /*style*/
+    color: var(--secondary-color);
+    /*grid*/
+}
+
+.profile-adverts-header small {
+    /*size - position*/
+
+    /*style*/
+    color: #7d7d7d;
 
     /*grid*/
 }

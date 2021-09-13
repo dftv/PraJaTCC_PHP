@@ -89,45 +89,70 @@
             Anúncios:
             <div class="profile-list-adverts">
 
-                <div class="profile-adverts">
-                    <div class="profile-adverts-image">
-                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                <a href="#">
+                    <div class="profile-adverts">
+                        <div class="profile-adverts-image">
+                            <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                        </div>
+                        <div class="profile-adverts-header">
+                            Daniel<br>
+                            <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                            <small>R$00,00</small>
+                        </div>
                     </div>
-                    <div class="profile-adverts-header">
-                        Daniel<br>
-                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
-                    </div>
-                </div>
+                </a>
 
-                <div class="profile-adverts">
-                    <div class="profile-adverts-image">
-                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                <a href="#">
+                    <div class="profile-adverts">
+                        <div class="profile-adverts-image">
+                            <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                        </div>
+                        <div class="profile-adverts-header">
+                            Daniel<br>
+                            <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                            <small>R$00,00</small>
+                        </div>
                     </div>
-                    <div class="profile-adverts-header">
-                        Daniel<br>
-                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
-                    </div>
-                </div>
+                </a>
 
-                <div class="profile-adverts">
-                    <div class="profile-adverts-image">
-                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                <a href="#">
+                    <div class="profile-adverts">
+                        <div class="profile-adverts-image">
+                            <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                        </div>
+                        <div class="profile-adverts-header">
+                            Daniel<br>
+                            <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                            <small>R$00,00</small>
+                        </div>
                     </div>
-                    <div class="profile-adverts-header">
-                        Daniel<br>
-                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
-                    </div>
-                </div>
+                </a>
 
-                <div class="profile-adverts">
-                    <div class="profile-adverts-image">
-                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                <a href="#">
+                    <div class="profile-adverts">
+                        <div class="profile-adverts-image">
+                            <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                        </div>
+                        <div class="profile-adverts-header">
+                            Daniel<br>
+                            <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                            <small>R$00,00</small>
+                        </div>
                     </div>
-                    <div class="profile-adverts-header">
-                        Daniel<br>
-                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                </a>
+
+                <a href="#">
+                    <div class="profile-adverts">
+                        <div class="profile-adverts-image">
+                            <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                        </div>
+                        <div class="profile-adverts-header">
+                            Daniel<br>
+                            <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                            <small>R$00,00</small>
+                        </div>
                     </div>
-                </div>
+                </a>
 
             </div>
         </div>
