@@ -47,7 +47,7 @@
 
                 <label>Senha:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="password_login" type="password" name="password_login" placeholder="Senha" autocomplete="off" required>
+                    <input class="form-input" id="password_login" type="password" name="password_login" placeholder="Senha" autocomplete="off" minlength="8" required>
                 </div>
                 <small>Exemplo: </small>
 

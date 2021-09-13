@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Profile</title>
 
     <link rel="stylesheet" href="css/universal.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/dropdown.css">
 </head>
@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar-top grid-row">
         <div class="navbar-logo">
-            <a href="#">
+            <a href="index.php">
                 <svg class="logo" viewBox="0 0 2349 744.8">
                     <g id="Art">
                         <rect class="bk" width="2349" height="744.8" />
@@ -72,25 +72,69 @@
         </div>
     </nav>
 
-    <nav class="container-chat grid-column">
-        <a href="chat.php">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon-chat" viewBox="0 0 16 16">
-                <path
-                    d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-            </svg>
-        </a>
-    </nav>
-    
-    <div class="container-bg">
-        <img class="bg-img" src="https://source.unsplash.com/1920x1080/?mercado,streetfair,agricultura">
-    </div>
+    <div class="profile-container">
 
-    <div class="container">
-        Qualquer coisa que tenha no site!!!
+        <div class="profile-top">
+            <div class="profile-icon-user">
+                <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+            </div>
+    
+            <div class="profile-header">
+                Daniel<br>
+                <small>descrição a jsadhus jasuidhuih asiduiash</small>
+            </div>
+        </div>
+
+        <div class="profile-body">
+            Anúncios:
+            <div class="profile-list-adverts">
+
+                <div class="profile-adverts">
+                    <div class="profile-adverts-image">
+                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                    </div>
+                    <div class="profile-adverts-header">
+                        Daniel<br>
+                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                    </div>
+                </div>
+
+                <div class="profile-adverts">
+                    <div class="profile-adverts-image">
+                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                    </div>
+                    <div class="profile-adverts-header">
+                        Daniel<br>
+                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                    </div>
+                </div>
+
+                <div class="profile-adverts">
+                    <div class="profile-adverts-image">
+                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                    </div>
+                    <div class="profile-adverts-header">
+                        Daniel<br>
+                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                    </div>
+                </div>
+
+                <div class="profile-adverts">
+                    <div class="profile-adverts-image">
+                        <img src="https://i.pinimg.com/736x/6f/1e/fb/6f1efb3e2f7ddb6f6b9a3dbefabe0c67.jpg">
+                    </div>
+                    <div class="profile-adverts-header">
+                        Daniel<br>
+                        <small>descrição a jsadhus jasuidhuih asiduiash</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <div class="container-bottom grid-column">
-        <hr/>
+        <hr />
         PRA jÀ - TCC
     </div>
 
@@ -99,12 +143,6 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="icon-options" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-        </a>
-        <a href="chat.php">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon-chat" viewBox="0 0 16 16">
-                <path
-                    d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
             </svg>
         </a>
         <a href="#">
@@ -127,7 +165,7 @@
             #######   #    ##  ##       ##    ##  #######
                       #######  #######  ##    ##
     -->
-    
+
 </body>
 
 </html>

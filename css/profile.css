@@ -1,0 +1,146 @@
+.navbar-top {
+    /*size - position*/
+    position: relative !important;
+
+    /*style*/
+    background-color: var(--secondary-color) !important;
+
+    /*grid*/
+}
+
+.profile-container {
+    /*size - position*/
+    margin: 2.5vh;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.profile-top {
+    /*size - position*/
+    height: 16vh;
+
+    /*style*/
+
+    /*grid*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-icon-user {
+    /*size - position*/
+    width: 15vh;
+    height: 15vh;
+
+    /*style*/
+    background-color: var(--main-color);
+    border-radius: 2.5vh 2.5vh 0 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    border: .5vh solid var(--secondary-color);
+    overflow: hidden;
+
+    /*grid*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon-user img {
+    /*size - position*/
+    width: 110%;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.profile-header {
+    /*size - position*/
+    margin-left: 2vh;
+
+    /*style*/
+
+    /*grid*/
+}
+
+.profile-header small {
+    /*size - position*/
+
+    /*style*/
+    color: #7d7d7d;
+
+    /*grid*/
+}
+
+.profile-body {
+    /*size - position*/
+    height: 75vh;
+    margin-top: -.5vh;
+
+    /*style*/
+    padding: 2.5vh;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+
+    /*grid*/
+}
+
+.profile-list-adverts {
+    /*size - position*/
+
+    /*style*/
+
+    /*grid*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile-adverts{
+    /*size - position*/
+    width: 10vh;
+    height: 10vh;
+    margin: 2.5vh;
+
+    /*style*/
+    background-color: var(--main-color);
+
+    /*grid*/
+}
+
+.profile-adverts-image img {
+    /*size - position*/
+    width: 110%;
+    /*style*/
+
+    /*grid*/
+}
+
+@media (min-width: 1025px) {
+    .container-bottom {
+        /*size - position*/
+        bottom: 0;
+    
+        /*style*/
+        padding: 0;
+    
+        /*grid*/
+    }
+}
+@media (max-width: 1025px) {
+    .container-bottom {
+        /*size - position*/
+        height: 15.5vh;
+        bottom: 0;
+    
+        /*style*/
+    
+        /*grid*/
+    }
+}
