@@ -92,13 +92,13 @@
                 <form>
                 <label>Numero de telefone:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="phone_singup" type="tel" name="phone_singup" placeholder="Numero de telefone" autocomplete="off" pattern="\(.?\[0-9]{2}\).?\s([9]{1})\([0-9]{4})\-.?\([0-9]{4})" required>
+                    <input class="form-input" id="phone_singup" type="tel" name="phone_singup" placeholder="Numero de telefone" autocomplete="off" pattern="\(.?\[0-9]{2}\).?\s([9]{1})\([0-9]{4})\-.?\([0-9]{4})" maxlength="15" required>
                 </div>
                 <small>Exemplo: </small>
                 
                 <label>CPF:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="CPF_singup" type="text" name="CPF_singup" placeholder="CPF" autocomplete="off" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
+                    <input class="form-input" id="CPF_singup" type="text" name="CPF_singup" placeholder="CPF" autocomplete="off" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" maxlength="14" required>
                 </div>
                 <small>Exemplo: </small>
                 
@@ -120,6 +120,7 @@
     </div>
     
     <script type="text/javascript" src="components/script.js"></script>
+    <script type="text/javascript" src="components/inputMask.js"></script>
     <script src="components/comfirmPassword.js"></script>
     
     <!---
