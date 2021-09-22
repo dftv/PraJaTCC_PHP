@@ -61,16 +61,17 @@
         <div class="container-singup grid-row" id="sla">
             <label>CADASTRAR-SE</label>
 
-            <form class="form grid-column" action="User/register">
+            <?= form_open('User/register')?>
+
                 <label>Nome completo:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="name_singup" type="text" name="name_singup" placeholder="Nome completo" autocomplete="off" required>
+                    <input class="form-input" id="name_singup" type="text" name="name_singup" placeholder="Nome completo" autocomplete="off" maxlength="250" required>
                 </div>
                 <small>Exemplo: </small>
 
                 <label>E-mail:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="email_singup" type="email" name="email_singup" placeholder="Email" autocomplete="off" required>
+                    <input class="form-input" id="email_singup" type="email" name="email_singup" placeholder="Email" autocomplete="off" maxlength="750" required>
                 </div>
                 <small>Exemplo: </small>
 
@@ -92,24 +93,22 @@
                 </div>
                 <small>Exemplo: </small>
                 
-                <form>
                 <label>Numero de telefone:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="phone_singup" type="tel" name="phone_singup" placeholder="Numero de telefone" autocomplete="off" pattern="\(.?\[0-9]{2}\).?\s([9]{1})\([0-9]{4})\-.?\([0-9]{4})" maxlength="15" required>
+                    <input class="form-input" id="phone_singup" type="tel" name="phone_singup" placeholder="Numero de telefone" autocomplete="off" pattern="\(.?\[0-9]{2}\).?\s([9]{1})\([0-9]{4})\-.?\([0-9]{4})" minlength="15" maxlength="15" required>
                 </div>
                 <small>Exemplo: </small>
                 
                 <label>CPF:</label>
                 <div class="container-form-input">
-                    <input class="form-input" id="CPF_singup" type="text" name="CPF_singup" placeholder="CPF" autocomplete="off" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" maxlength="14" required>
+                    <input class="form-input" id="CPF_singup" type="text" name="CPF_singup" placeholder="CPF" autocomplete="off" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" minlength="14" maxlength="14" required>
                 </div>
                 <small>Exemplo: </small>
                 
                 <button class="form-btn" type="submit">CADASTRAR-SE</button>
                 <span class="error-singup"></span>
-                </form>
                 
-            </form>
+            <?= form_close()?>
         </div>
     </div>
 
