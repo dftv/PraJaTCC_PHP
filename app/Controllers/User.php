@@ -18,8 +18,6 @@ class User extends BaseController
 
 		$date = new DateTime();
 
-		echo '<script> alert('. $this->request->getPost('email_singup') .'); </script>';
-
 		$data = [
 			'email_ds' => $this->request->getPost('email_singup'),
 			'password_ds' => md5($this->request->getPost('password_singup')),

@@ -40,7 +40,9 @@
 
         <div class="container-login grid-row">
             <label>LOGAR-SE</label>
-            <form class="form grid-column" action="">
+
+            <?= form_open('User/login', array('class' => 'form grid-column'))?>
+
                 <label>E-mail:</label>
                 <div class="container-form-input">
                     <input class="form-input" id="email_login" type="email" name="email_login" placeholder="Email" autocomplete="off" required>
@@ -55,13 +57,15 @@
 
                 <button class="form-btn" type="submit">LOGAR-SE</button>
                 <span class="error-login"></span>
-            </form>
+
+            <?= form_close()?>
+
         </div>
 
         <div class="container-singup grid-row" id="sla">
             <label>CADASTRAR-SE</label>
 
-            <?= form_open('User/register')?>
+            <?= form_open('User/register', array('class' => 'form grid-column'))?>
 
                 <label>Nome completo:</label>
                 <div class="container-form-input">
@@ -109,6 +113,7 @@
                 <span class="error-singup"></span>
                 
             <?= form_close()?>
+
         </div>
     </div>
 
