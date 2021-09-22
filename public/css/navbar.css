@@ -233,6 +233,20 @@
     /*grid*/
 }
 
+.icon-home {
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    margin-top: .5vh;
+
+    /*style*/
+    cursor: pointer;
+    text-decoration: none;
+    fill: var(--secondary-color);
+
+    /*grid*/
+}
+
 .icon-user {
     /*size - position*/
     position: relative;

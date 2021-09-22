@@ -16,7 +16,7 @@
 <body>
     <div class="container grid-row">
         <div class="container-logo">
-            <a href="index.php">
+            <a href="Home">
                 <svg class="logo" viewBox="0 0 2349 744.8">
                     <g id="Art">
                         <rect class="bk" width="2349" height="744.8" />
@@ -60,7 +60,8 @@
 
         <div class="container-singup grid-row" id="sla">
             <label>CADASTRAR-SE</label>
-            <form class="form grid-column" action="">
+
+            <form class="form grid-column" action="User/register">
                 <label>Nome completo:</label>
                 <div class="container-form-input">
                     <input class="form-input" id="name_singup" type="text" name="name_singup" placeholder="Nome completo" autocomplete="off" required>

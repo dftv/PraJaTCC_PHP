@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
     <title>CHAT</title>
 
     <link rel="stylesheet" href="css/universal.css">
@@ -18,7 +18,7 @@
 <body>
     <nav class="navbar-top grid-row">
         <div class="navbar-logo">
-            <a href="index.php">
+            <a href="Home">
                 <svg class="logo" viewBox="0 0 2349 744.8">
                     <g id="Art">
                         <rect class="bk" width="2349" height="744.8" />
@@ -162,91 +162,17 @@
                     Oi
                 </div>
                 <div class="message-sent">
-                Eu já dei risada até a barriga doer,
-Já nadei até perder o fôlego,
-Já chorei até dormir
-E acordei com o rosto desfigurado.
-Já fiz cosquinha na minha irmã só pra ela parar de chorar,
-Já me queimei brincando com vela.
-Eu já fiz bola de chiclete e melequei todo o rosto.
-Já conversei com o espelho.
-E até já brinquei de ser bruxo.
-Já quis ser astronauta,
-Violonista, mágico, caçador e trapezista.
-Já me escondi atrás da cortina e esqueci os pés pra fora,
-Já passei trote por telefone,
-Já tomei banho de chuva,
-E acabei me viciando.
-Já roubei beijo,
-Já fiz confissões antes de dormir
-Num quarto escuro pro melhor amigo.
-Já confundi sentimentos,
-Peguei atalho errado
-E continuo andando pelo desconhecido.
-Já raspei o fundo da panela de arroz carreteiro,
-Já me cortei fazendo a barba apressado,
-Já chorei ouvindo música no ônibus.
-Já tentei esquecer algumas pessoas,
-Mas descobri que essas são as mais difíceis de se
-[esquecer.
-Já subi escondido no telhado pra tentar pegar estrelas,
-Já subi em árvore pra roubar fruta,
-Já caí da escada de bunda.
-Conheci a morte de perto,
-E agora anseio por viver cada dia.
-Já fiz juras eternas,
-Já escrevi no muro da escola,
-Já chorei sentado no chão do banheiro,
-Já fugi de casa pra sempre,
-E voltei no outro instante.
-Já saí pra caminhar sem rumo,
-Sem nada na cabeça, ouvindo estrelas.
-Já corri pra não deixar alguém chorando,
-Já fiquei sozinho no meio de mil pessoas
-Sentindo falta de uma só.
-Já vi pôr-do-sol cor-de-rosa e alaranjado,
-Já me joguei na piscina sem vontade de voltar,
-Já bebi uísque até sentir dormentes os meus lábios,
-Já olhei a cidade de cima
-E mesmo assim não encontrei meu lugar.
-Já senti medo do escuro,
-Já tremi de nervoso,
-Já quase morri de amor,
-Mas renasci novamente pro ver o sorriso de alguém
-[especial.
-Já acordei no meio da noite
-E fiquei com medo de levantar.
-Já apostei em correr descalço na rua,
-Já gritei de felicidade,
-Já roubei rosas num enorme jardim.
-Já me apaixonei e achei que era para sempre,
-Mas sempre era um "para sempre" pela metade.
-Já deitei na grama de madrugada
-E vi a Lua virar Sol,
-Já chorei por ver amigos partindo,
-Mas descobri que logo chegam novos,
-e a vida é mesmo um ir e vir sem razão.
-Foram tantas coisas feitas,
-Momentos fotografados pelas lentes da emoção.
-Guardados num baú, chamado coração.
-E agora um formulário me interroga,
-Encosta-me na parede e grita:
-"- Qual sua experiência?”.
-Essa pergunta ecoa no meu cérebro:
-"experiência... experiência...”
-Será que ser "plantador de sorrisos" é uma boa
-experiência?
-Não!
-”Talvez eles não saibam ainda colher sonhos!”
+                    Oi
                 </div>
             </div>
 
             <div class="container-sending">
                 <form class="form">
                     <div class="container-form-input">
-                        <input input class="form-input" id="message" type="text" name="message" placeholder="Mensagem..." autocomplete="off" maxlength="250" required>
+                        <input input class="form-input" id="message" type="text" name="message"
+                            placeholder="Mensagem..." autocomplete="off" maxlength="250" required>
                     </div>
-    
+
                     <button class="form-btn">Enviar</button>
                 </form>
             </div>
@@ -254,7 +180,7 @@ Não!
     </div>
 
     <div class="container-bottom grid-column">
-        <hr/>
+        <hr />
         PRA jÀ - TCC
     </div>
 
@@ -265,7 +191,17 @@ Não!
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
         </a>
-        <a href="#">
+
+        <a href="Home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-home" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                <path fill-rule="evenodd"
+                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+            </svg>
+        </a>
+
+        <a href="Profile">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon-user" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                 <path fill-rule="evenodd"
@@ -285,7 +221,7 @@ Não!
             #######   #    ##  ##       ##    ##  #######
                       #######  #######  ##    ##
     -->
-    
+
 </body>
 
 </html>
