@@ -28,6 +28,8 @@ class UserModel extends Model
 
 		if($usuario) {
 			$session = session();
+			$session->set('errorLogin', '');
+			$session->set('errorSingup', '');
 			$session->set('userLogged', $usuario);
 			return true;
 		}else{

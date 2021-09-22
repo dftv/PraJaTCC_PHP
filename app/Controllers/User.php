@@ -47,7 +47,9 @@ class User extends BaseController
 		if($this->userModel->login($data)) {
 			return redirect()->to(base_url('Home'));
 		} else{
-			return redirect()->to(base_url('Join?error=Email ou senha incorretos'));
+			$session = session();
+			$session->set('errorLogin', 'E-mail ou senha incorretos');
+			return redirect()->to(base_url('Join'));
 		}
 	}
 

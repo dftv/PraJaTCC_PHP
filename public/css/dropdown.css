@@ -61,22 +61,27 @@
     display: flex;
 }
 
-.btn {
+.container-options hr, .container-user hr {
     /*size - position*/
-    width: 50%;
-    height: 5.5vh;
-    margin: 2vh;
+    width: 100%;
+    
+    /*style*/
+
+    /*grid*/
+}
+
+.btn-dropdown {
+    /*size - position*/
+    width: 100%;
+    margin: .5vh;
 
     /*style*/
+    text-align: left;
     text-decoration: none;
     color: var(--secondary-color);
-    background-color: var(--secondary-color);
     cursor: pointer;
     outline: none;
     border: none;
-    border-radius: 2.5vh;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
 
     /*grid*/
-    display: none;
 }

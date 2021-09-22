@@ -61,7 +61,12 @@
                 <small>Exemplo: </small>
 
                 <button class="form-btn" type="submit">LOGAR-SE</button>
-                <span class="error-login"></span>
+                <span class="error-login">
+                    <?php
+                        $session = session();
+                        echo $session->get('errorLogin');
+                    ?>
+                </span>
 
             <?= form_close()?>
 
@@ -115,7 +120,12 @@
                 <small>Exemplo: </small>
                 
                 <button class="form-btn" type="submit">CADASTRAR-SE</button>
-                <span class="error-singup"></span>
+                <span class="error-singup">
+                    <?php
+                        $session = session();
+                        echo $session->get('errorSingup');
+                    ?>
+                </span>
                 
             <?= form_close()?>
 
@@ -161,7 +171,7 @@
             <div class="container-error grid-row">
                 <label>Você não tem permissão para acessar essa página</label>
                 <a class="btn grid-row" href="<?= base_url('Home')?>">VOLTAR</a>
-                <a class="btn grid-row" href="<?= base_url('User/leave')?>">SAIR DA CONTA</a>
+                <a class="btn btn-danger grid-row " href="<?= base_url('User/leave')?>">SAIR DA CONTA</a>
             </div>
         </div>
 

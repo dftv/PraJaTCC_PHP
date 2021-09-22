@@ -245,6 +245,17 @@
     /*grid*/
 }
 
+.error-singup, .error-login {
+    /*size - position*/
+    margin-top: 2vh;
+
+    /*style*/
+    color: var(--danger-color);
+
+    /*grid*/
+    ;
+}
+
 .container-bg {
     /*size - position*/
     width: 100vw;
@@ -296,6 +307,14 @@
 
     /*grid*/
     display: none;
+}
+
+.btn-danger {
+    /*size - position*/
+
+    /*style*/
+    background-color: var(--danger-color);
+    /*grid*/
 }
 
 .container-error:hover .btn {

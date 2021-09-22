@@ -72,17 +72,24 @@
                         $session = session();
                         if(!$session->get('userLogged')) :
                     ?>
-                    <a class="btn" href="Join">Fazer cadastro ou entrar</a>
+                    <a class="btn-dropdown" href="Join">Fazer cadastro ou entrar</a>
 
                     <?php else : ?>
 
-                    <a class="btn" href="Profile">Meu perfil</a>
+                    <a class="btn-dropdown" href="Profile">Meu perfil</a>
+                    <hr/>
+                    <a class="btn-dropdown" href="User/leave">Sair</a>
 
                     <?php endif; ?>
                 </div>
             </div>
         </div>
     </nav>
+
+    <?php 
+        $session = session();
+        if($session->get('userLogged')) :
+    ?>
 
     <nav class="container-chat grid-column">
         <a href="Chat">
@@ -93,6 +100,8 @@
         </a>
     </nav>
     
+    <?php endif; ?>
+
     <div class="container-bg">
         <img class="bg-img" src="https://source.unsplash.com/1920x1080/?mercado,streetfair,agricultura">
     </div>
