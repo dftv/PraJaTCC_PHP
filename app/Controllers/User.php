@@ -29,7 +29,32 @@ class User extends BaseController
 		];
 
 		if($this->userModel->save($data)) {
+			if($this->userModel->login($data)) {
+				return redirect()->to(base_url('Home'));
+			} else{
+				return redirect()->to(base_url('Join'));
+			}
 			return redirect()->to(base_url('Home'));
 		}
+	}
+
+	public function login() {
+		$data = [
+			'email_ds' => $this->request->getPost('email_login'),
+			'password_ds' => md5($this->request->getPost('password_login')),
+		];
+
+		if($this->userModel->login($data)) {
+			return redirect()->to(base_url('Home'));
+		} else{
+			return redirect()->to(base_url('Join?error=Email ou senha incorretos'));
+		}
+	}
+
+	public function leave() {
+		$session = session();
+		$session->destroy();
+
+		return redirect()->to(base_url('Home'));
 	}
 }

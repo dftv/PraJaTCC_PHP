@@ -15,4 +15,23 @@ class UserModel extends Model
 	protected $useSoftDeletes       = false;
 	protected $protectFields        = true;
 	protected $allowedFields        = ['email_ds', 'password_ds', 'user_nm', 'birthDate_dt', 'phoneNumber_ds', 'cpf_ds', 'accountStatus_dt'];
+
+	public function login($data) {
+
+		$email_ds = $data['email_ds'];
+		$password_ds = $data['password_ds'];
+
+		$this->where('email_ds', $email_ds);
+		$this->where('password_ds', $password_ds);
+
+		$usuario = $this->get()->getRowArray();
+
+		if($usuario) {
+			$session = session();
+			$session->set('userLogged', $usuario);
+			return true;
+		}else{
+			return false;
+		}
+	}
 }

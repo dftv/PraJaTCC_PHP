@@ -45,7 +45,7 @@
     /*grid*/
 }
 
-.container-login label, .container-singup label {
+.container-login label, .container-singup label, .container-error label {
     /*size - position*/
     width: 100%;
     margin: 2.5vh;
@@ -57,7 +57,7 @@
     /*grid*/
 }
 
-.container-login:hover label, .container-singup:hover label {
+.container-login:hover label, .container-singup:hover label, .container-error:hover label {
     /*size - position*/
 
     /*style*/
@@ -81,7 +81,7 @@
         /*grid*/
     }
 
-    .container-login, .container-singup {
+    .container-login, .container-singup, .container-error {
         /*size - position*/
         width: 25%;
         height: 50%;
@@ -98,7 +98,7 @@
         text-align: center;
     }
 
-    .container-login:hover, .container-singup:hover {
+    .container-login:hover, .container-singup:hover, .container-error:hover {
         /*size - position*/
         width: 25%;
         height: 75%;
@@ -121,7 +121,7 @@
         display: none;
     }
 
-    .container-login, .container-singup {
+    .container-login, .container-singup, .container-error {
         /*size - position*/
         width: 100%;
         height: 10%;
@@ -135,7 +135,7 @@
         /*grid*/
     }
 
-    .container-login:hover, .container-singup:hover {
+    .container-login:hover, .container-singup:hover, .container-error:hover {
         /*size - position*/
         width: 100%;
         height: 90%;
@@ -275,4 +275,34 @@
     /*style*/
 
     /*grid*/
+}
+
+
+.btn {
+    /*size - position*/
+    width: 50%;
+    height: 5.5vh;
+    margin: 2vh;
+
+    /*style*/
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 2.5vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+
+    /*grid*/
+    display: none;
+}
+
+.container-error:hover .btn {
+    /*size - position*/
+
+    /*style*/
+
+    /*grid*/
+    display: flex;
 }
