@@ -16,6 +16,12 @@
 </head>
 
 <body>
+
+    <?php 
+        $session = session();
+        if($session->get('userLogged')) :
+    ?> 
+
     <nav class="navbar-top grid-row">
         <div class="navbar-logo">
             <a href="Home">
@@ -68,7 +74,22 @@
                         d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
                 </svg>
                 <div class="dropdown-user">
-                    -OPÇÕES
+
+                    <?php 
+                        $session = session();
+                        if($session->get('userLogged')) :
+                    ?>
+
+                    <a class="btn-dropdown" href="Profile">Meu perfil</a>
+                    <hr/>
+                    <a class="btn-dropdown" href="User/leave">Sair</a>
+
+                    <?php else : ?>
+                    
+                    <a class="btn-dropdown" href="Join">Fazer cadastro ou entrar</a>
+
+                    <?php endif; ?>
+
                 </div>
             </div>
         </div>
@@ -209,6 +230,49 @@
             </svg>
         </a>
     </nav>
+    
+    <?php else : ?>
+
+    <div class="container grid-row">
+            <div class="container-logo">
+                <a href="Home">
+                    <svg class="logo" viewBox="0 0 2349 744.8">
+                        <g id="Art">
+                            <rect class="bk" width="2349" height="744.8" />
+                            <path class="text"
+                                d="M149.5 47.4l100 0 200 0 100 0 0 100 0 100 0 100 -100 0 -200 0 0 200 -100 0 0 -200 0 -100 0 -100 0 -100zm300 200l0 -100 -200 0 0 100 200 0z" />
+                            <path class="text"
+                                d="M649.5 47.4l100 0 200 0 100 0 0 100 0 100 0 100 -100 0 -129.29 0 200 200 -141.42 0 -129.29 -129.29 0 129.29 -100 0 0 -200 0 -100 0 -100 0 -100zm300 200l0 -100 -200 0 0 100 200 0z" />
+                            <path class="text"
+                                d="M1149.5 47.4l100 0 200 0 100 0 0 100 0 100 0 100 0 200 -100 0 0 -200 -200 0 0 200 -100 0 0 -200 0 -100 0 -100 0 -100zm300 200l0 -100 -200 0 0 100 200 0z" />
+                            <path class="text"
+                                d="M1599.5 197.4l100 0 0 400 0 100 -100 0 -200 0 -100 0 0 -100 0 -150 100 0 0 150 200 0 0 -400z" />
+                            <path class="text"
+                                d="M1799.5 197.4l100 0 200 0 100 0 0 100 0 100 0 100 0 200 -100 0 0 -200 -200 0 0 200 -100 0 0 -200 0 -100 0 -100 0 -100zm300 200l0 -100 -200 0 0 100 200 0z" />
+                            <rect class="text" x="149.5" y="597.4" width="1100" height="100" />
+                            <path class="text" d="M1599.5 47.4l600 0 0 0 0 100 0 0 -600 0 0 0 0 -100 0 0z" />
+                            <path class="accent" d="M1979.22 134.9l35.56 -75 64.44 0 -59.44 75 -40.56 0z" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="container-error grid-row">
+                <label>Você não tem permissão para acessar essa página</label>
+                <a class="btn grid-row" href="<?= base_url('Home')?>">VOLTAR</a>
+            </div>
+        </div>
+
+        <div class="container-bg grid-column">
+            <img class="bg-img" src="https://source.unsplash.com/1920x1080/?mercado,streetfair,agricultura">
+        </div>
+
+        <div class="container-bottom grid-column">
+            <hr />
+            PRA jÀ - TCC
+        </div>
+
+        <?php endif; ?>
 
     <script type="text/javascript" src="components/script.js"></script>
 

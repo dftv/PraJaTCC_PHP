@@ -1,6 +1,7 @@
 .container-options, .container-user {
     /*size - position*/
     position: relative;
+    z-index: 10;
 
     /*style*/
 
@@ -15,6 +16,7 @@
     width: 15vh;
     margin-top: .5vh;
     left: -3.5vh;
+
 
     /*style*/
     background-color: var(--main-color);
