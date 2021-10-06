@@ -32,7 +32,7 @@
     /*size - position*/
 
     /*style*/
-    fill: var(--main-color);
+    fill: var(--first-color);
 
     /*grid*/
 }
@@ -67,7 +67,7 @@
         margin: 5vh;
         
         /*style*/
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         border-radius: 2.5vh;
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
     
@@ -93,7 +93,7 @@
         z-index: 1;
     
         /*style*/
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         border-radius: 2.5vh 0 0 2.5vh;
     
@@ -128,7 +128,7 @@
         bottom: 0;
     
         /*style*/
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         border-radius: 2.5vh 2.5vh 0 0;
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
     
@@ -154,7 +154,7 @@
     margin: 5vh;
     
     /*style*/
-    background-color: var(--main-color);
+    background-color: var(--first-color);
     border-radius: 2.5vh;
     box-shadow: 0 0 5px rgba(0, 0, 0, .25);
 
@@ -174,7 +174,7 @@
 
     /*style*/
     color: #7d7d7d;
-    background-color: var(--main-color);
+    background-color: var(--first-color);
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -213,7 +213,7 @@
     /*style*/
     cursor: pointer;
     text-decoration: none;
-    fill: var(--main-color);
+    fill: var(--first-color);
 
     /*grid*/
 }

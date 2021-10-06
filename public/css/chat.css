@@ -45,8 +45,8 @@
     
         /*style*/
         border-radius: 2.5vh;
-        color: var(--main-color);
-        background-color: var(--main-color);
+        color: var(--first-color);
+        background-color: var(--first-color);
         overflow: hidden;
 
         /*grid*/
@@ -63,7 +63,7 @@
         margin-left: .5vh;
 
         /*style*/
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         border-radius: 2.5vh;
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         overflow: hidden;
@@ -102,7 +102,7 @@
     
         /*style*/
         color: var(--secondary-color);
-        background-color: var(--main-color);
+        background-color: var(--first-color);
     
         /*grid*/
         display: flex;
@@ -116,7 +116,7 @@
         height: 10%;
         
         /*style*/
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         overflow: hidden;
     
@@ -162,7 +162,7 @@
         /*style*/
         backdrop-filter: blur(10px);
         background-color: rgba(0, 0, 0, 0.1);
-        border: var(--main-color) .25vh solid;
+        border: var(--first-color) .25vh solid;
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         overflow: scroll;
     
@@ -177,7 +177,7 @@
     
         /*style*/
         color: var(--secondary-color);
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
     
         /*grid*/
@@ -220,8 +220,8 @@
     
         /*style*/
         border-radius: 2.5vh;
-        color: var(--main-color);
-        background-color: var(--main-color);
+        color: var(--first-color);
+        background-color: var(--first-color);
         overflow: hidden;
 
         /*grid*/
@@ -238,7 +238,7 @@
         height: 7vh;
 
         /*style*/
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         border-radius: 2.5vh;
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         overflow: hidden;
@@ -275,7 +275,7 @@
     
         /*style*/
         color: var(--secondary-color);
-        background-color: var(--main-color);
+        background-color: var(--first-color);
     
         /*grid*/
         display: flex;
@@ -290,7 +290,7 @@
         
         /*style*/
         padding: 1vh;
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         overflow: hidden;
     
@@ -327,8 +327,8 @@
         height: 10%;
     
         /*style*/
-        color: var(--main-color);
-        border: var(--main-color) .25vh solid;
+        color: var(--first-color);
+        border: var(--first-color) .25vh solid;
         backdrop-filter: blur(10px);
         background-color: rgba(0, 0, 0, .25);
 
@@ -342,7 +342,7 @@
 
         /*style*/
         color: var(--secondary-color);
-        background-color: var(--main-color);
+        background-color: var(--first-color);
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
         overflow: scroll;
     
@@ -409,7 +409,7 @@
     font-size: 2.5vh;
     border-radius: 2.5vh 0 0 2.5vh;
     padding: 1vh 5vh 1vh 2.5vh;
-    background-color: var(--main-color);
+    background-color: var(--first-color);
     box-shadow: 0 0 5px rgba(0, 0, 0, .25);
 
     /*grid*/
@@ -421,7 +421,7 @@
     height: 7vh;
 
     /*style*/
-    background-color: var(--main-color);
+    background-color: var(--first-color);
     border-radius: 2.5vh;
     box-shadow: 0 0 5px rgba(0, 0, 0, .25);
     overflow: hidden;
@@ -542,7 +542,7 @@
     height: 5.5vh;
 
     /*style*/
-    color: var(--main-color);
+    color: var(--first-color);
     background-color: var(--secondary-color);
     cursor: pointer;
     outline: none;
@@ -586,7 +586,7 @@
     /*size - position*/
 
     /*style*/
-    fill: var(--main-color);
+    fill: var(--first-color);
 
     /*grid*/
 }
@@ -607,7 +607,7 @@
 
     /*style*/
     font-size: 3vh;
-    color: var(--main-color);
+    color: var(--first-color);
 
     /*grid*/
 }
@@ -650,7 +650,7 @@
 
     /*style*/
     font-size: 3vh;
-    color: var(--main-color);
+    color: var(--first-color);
 
     /*grid*/
 }
@@ -672,7 +672,7 @@
 
     /*style*/
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--first-color);
     background-color: var(--secondary-color);
     cursor: pointer;
     outline: none;
