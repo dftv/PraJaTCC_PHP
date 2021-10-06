@@ -186,7 +186,7 @@
 
     <?php endif; ?>
     
-    <script type="text/javascript" src="components/script.js"></script>
+    <script type="text/javascript" src="components/main.js"></script>
     <script type="text/javascript" src="components/inputMask.js"></script>
     <script src="components/comfirmPassword.js"></script>
     

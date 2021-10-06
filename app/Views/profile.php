@@ -248,7 +248,7 @@
 
     
 
-    <script type="text/javascript" src="components/script.js"></script>
+    <script type="text/javascript" src="components/main.js"></script>
 
     <!---
                       #######  ##       ########
