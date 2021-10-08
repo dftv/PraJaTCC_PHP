@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <link rel="icon" type="image/png" href="<?= base_url()?>/favicon.ico" />
     <title>Profile</title>
 
-    <link rel="stylesheet" href="css/universal.css">
-    <link rel="stylesheet" href="css/profile.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="<?= base_url()?>/css/universal.css">
+    <link rel="stylesheet" href="<?= base_url()?>/css/profile.css">
+    <link rel="stylesheet" href="<?= base_url()?>/css/navbar.css">
+    <link rel="stylesheet" href="<?= base_url()?>/css/dropdown.css">
 </head>
 
 <body>
@@ -248,7 +248,7 @@
 
     
 
-    <script type="text/javascript" src="components/main.js"></script>
+    <script type="text/javascript" src="<?= base_url()?>/components/main.js"></script>
 
     <!---
                       #######  ##       ########
