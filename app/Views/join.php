@@ -52,13 +52,13 @@
                 <div class="container-form-input">
                     <input class="form-input" id="email_login" type="email" name="email_login" placeholder="Email" autocomplete="off" required>
                 </div>
-                <small>Exemplo: </small>
+                <small></small>
 
                 <label>Senha:</label>
                 <div class="container-form-input">
                     <input class="form-input" id="password_login" type="password" name="password_login" placeholder="Senha" autocomplete="off" minlength="8" required>
                 </div>
-                <small>Exemplo: </small>
+                <small></small>
 
                 <button class="form-btn" type="submit">LOGAR-SE</button>
                 <span class="error-login">
