@@ -80,7 +80,7 @@
 
                     <?php else : ?>
 
-                    <a class="btn-dropdown" href="Join">Fazer cadastro ou entrar</a>
+                    <a class="btn-dropdown" href="Join">Cadastrar-se ou Logar-se</a>
 
                     <?php endif; ?>
 
