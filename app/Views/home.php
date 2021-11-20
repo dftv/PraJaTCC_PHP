@@ -57,8 +57,11 @@
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
                 </svg>
                 <div class="dropdown-options">
-                    -OPÇÕES
+                    <a class="btn-dropdown" href="">Fale conosco</a>
+                    <hr/>
+                    <a class="btn-dropdown" href="ServiceTerms">Termos de serviços</a>
                 </div>
+
             </div>
 
             <div class="container-user">
@@ -75,6 +78,8 @@
                     ?>
 
                     <a class="btn-dropdown" href="Profile">Meu perfil</a>
+                    <hr/>
+                    <a class="btn-dropdown" href="Profile">Meu perfil comercial</a>
                     <hr/>
                     <a class="btn-dropdown" href="User/leave">Sair</a>
 
