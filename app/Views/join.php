@@ -77,47 +77,53 @@
 
             <?= form_open('User/register', array('class' => 'form grid-column'))?>
 
-                <label>Nome completo:</label>
+                <label>Nome completo: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="name_singup" type="text" name="name_singup" placeholder="Nome completo" autocomplete="off" maxlength="250" required>
                 </div>
-                <small>Exemplo: </small>
+                <small>Exemplo: Clarissa Silveira Motta</small>
 
-                <label>E-mail:</label>
+                <label>E-mail: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="email_singup" type="email" name="email_singup" placeholder="Email" autocomplete="off" maxlength="750" required>
                 </div>
-                <small>Exemplo: </small>
+                <small>Exemplo: clarissamotta99@gmail.com </small>
 
-                <label>Senha:</label>
+                <label>Senha: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="password_singup" type="password" name="password_singup" placeholder="Senha" autocomplete="off" minlength="8" maxlength="16" required>
                 </div>
-                <small>Exemplo: </small>
+                <small></small>
 
-                <label>Confirme a senha:</label>
+                <label>Confirme a senha: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="confirmPassword_singup" type="password" name="confirmPassword_singup" placeholder="Confirme a senha" autocomplete="off" minlength="8" maxlength="16" required>
                 </div>
-                <small>Exemplo: </small>
+                <small></small>
 
-                <label>Data de nascimento:</label>
+                <label>Data de nascimento: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="birthDate_singup" type="date" name="birthDate_singup" autocomplete="off" required>
                 </div>
-                <small>Exemplo: </small>
+                <small>Exemplo: 18/10/1999</small>
                 
-                <label>Numero de telefone:</label>
+                <label>Numero de telefone: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="phone_singup" type="tel" name="phone_singup" placeholder="Numero de telefone" autocomplete="off" pattern="\(.?\[0-9]{2}\).?\s([9]{1})\([0-9]{4})\-.?\([0-9]{4})" minlength="15" maxlength="15" required>
                 </div>
-                <small>Exemplo: </small>
+                <small>Exemplo: (11) 12345-1234</small>
                 
-                <label>CPF:</label>
+                <label>CPF: *</label>
                 <div class="container-form-input">
                     <input class="form-input" id="CPF_singup" type="text" name="CPF_singup" placeholder="CPF" autocomplete="off" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" minlength="14" maxlength="14" required>
                 </div>
-                <small>Exemplo: </small>
+                <small>Exemplo: 596.420.730-80</small>
+
+                <label><a href="<?= base_url('ServiceTerms')?>">TERMOS DE USO: *</a></label>
+                <div class="container-form-input-checkbox">
+                    <input class="form-input" type="checkbox" required>
+                </div>
+                <small></small>
                 
                 <button class="form-btn" type="submit">CADASTRAR-SE</button>
                 <span class="error-singup">

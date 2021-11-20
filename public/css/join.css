@@ -200,6 +200,33 @@
     justify-content: center;
 }
 
+.container-form-input-checkbox {
+    /*size - position*/
+    width: 75%;
+    height: 5.5vh;
+    
+    /*style*/
+    background-color: white;
+    border-radius: 2.5vh;
+    padding: 0 2.5vh 0 2.5vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+
+    /*grid*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-form-input-checkbox:hover {
+    /*size - position*/
+
+    /*style*/
+    background-color: #005CC9;
+
+    /*grid*/
+}
+
 .form-input {
     /*size - position*/
     width: 100%;
