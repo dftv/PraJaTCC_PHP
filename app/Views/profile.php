@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" href="<?= base_url()?>/favicon.ico" />
-    <title>Profile</title>
+    <title>PROFILE</title>
 
     <link rel="stylesheet" href="<?= base_url()?>/css/universal.css">
     <link rel="stylesheet" href="<?= base_url()?>/css/profile.css">
     <link rel="stylesheet" href="<?= base_url()?>/css/navbar.css">
     <link rel="stylesheet" href="<?= base_url()?>/css/dropdown.css">
+    <link rel="stylesheet" href="<?= base_url()?>/css/join.css">
 </head>
 
 <body>
@@ -106,16 +107,17 @@
 
         <div class="profile-top">
             <div class="profile-icon-user">
-                <img src="http://blog.rosavalverde.com.br/wp-content/uploads/2021/01/Tree-Of-Life-RealSteel-Center-gold_400x.png">
+                <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/2318271-icone-do-perfil-do-usuario-gr%C3%A1tis-vetor.jpg">
             </div>
     
             <div class="profile-header">
-                SETE GUIAS<br>
-                <small>Loja esotérica</small>
+                Tales Beirado Motta<br>
+                <small> <button style="padding: 1vh;" class="form-btn" type="submit">CRIAR CONTA COMERCIAL</button> </small>
             </div>
         </div>
 
         <div class="profile-body">
+            <!--
             Anúncios:
             <div class="profile-list-adverts">
 
@@ -159,6 +161,7 @@
                 </a>
 
             </div>
+            -->
         </div>
     </div>
 

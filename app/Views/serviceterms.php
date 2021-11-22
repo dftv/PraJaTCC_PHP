@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" href="<?= base_url()?>/favicon.ico" />
-    <title>Service Terms</title>
+    <title>SERVICE TERMS</title>
 
     <link rel="stylesheet" href="<?= base_url()?>/css/universal.css">
     <link rel="stylesheet" href="<?= base_url()?>/css/serviceterms.css">
